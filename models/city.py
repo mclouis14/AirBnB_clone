@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Thid defines the City class."""
+"""This defines the City class."""
 from models.base_model import BaseModel
 
 
