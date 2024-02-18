@@ -37,7 +37,11 @@ class FileStorage:
             json.dump(objdict, f)
 
     def reload(self):
+<<<<<<< HEAD
         """Deserializes JSON file __file_path to __objects, if it exists."""
+=======
+        """Deserialize the JSON file __file_path to __objects, if it exists"""
+>>>>>>> cbcc85af2fb7863dcb95ffd1fec1768316fe33e8
         try:
             with open(FileStorage.__file_path) as f:
                 objdict = json.load(f)
